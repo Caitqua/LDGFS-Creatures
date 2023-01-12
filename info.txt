@@ -1,0 +1,17 @@
+[ID:ldgfs_creatures]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:0.2]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.2]
+[AUTHOR:Caitqua]
+[NAME:Legally Distinct Generic Fantasy Setting - Creatures Pack]
+[DESCRIPTION:This mod adds the Aboleth, a dark and insidious intelligence older than the planet and the gods themselves, that hides in the depths, taking over minds and devouring its mind controlled subjects when it gets hungry... This is part of an expanding pack, so stay tuned for a name change as well as more megabeasts and creatures from the D&D universe to be added!]
+
+[STEAM_TITLE:LDGFS Creature Pack]
+[STEAM_DESCRIPTION:Placeholder while we update to the new description. We got an update!]
+[STEAM_TAG:total conversion]
+[STEAM_TAG:megabeast]
+[STEAM_TAG:creature]
+[STEAM_TAG:difficulty]
+
+[STEAM_FILE_ID:2914285476]

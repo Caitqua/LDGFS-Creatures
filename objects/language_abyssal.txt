@@ -1,0 +1,7 @@
+language_abyssal
+
+[OBJECT:LANGUAGE]
+
+[TRANSLATION:ABYSSAL]
+	[T_WORD:AGELESS:trak]
+	[T_WORD:OCEAN:alud]
