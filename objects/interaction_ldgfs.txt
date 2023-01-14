@@ -29,12 +29,3 @@ Probably need to work on this a bit; it's going on the TODO list.
             [CE_PARALYSIS:SEV:100:PROB:100:START:50:PEAK:500:END:150000]
             [CE_UNCONSCIOUSNESS:SEV:100:PROB:100:START:50:PEAK:500:END:150000]
 
-This interaction is for the aboleths.
-
-[INTERACTION:ENSLAVE_CREATURE]
-    [I_SOURCE:SECRET]
-    [I_TARGET:A:CREATURE]
-        [IT_FORBIDDEN:OPPOSED_TO_LIFE]
-    [I_EFFECT:ADD_SYNDROME]
-        [SYNDROME]
-            [CE_ADD_TAG:OPPOSED_TO_LIFE:START:0:END:600]

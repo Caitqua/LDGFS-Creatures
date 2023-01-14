@@ -3,6 +3,7 @@ creature_dnd_grassland
 [OBJECT:CREATURE]
 
 [CREATURE:COCKATRICE]
+	[DOES_NOT_EXIST]
 	[DESCRIPTION:A hideous hybrid of a lizard, a bird, and a bat. It is infamous for its ability to turn flesh into stone.]
 	[NAME:cockatrice:cockatrices:cockatrice]
 	[CASTE_NAME:cockatrice:cockatrices:cockatrice]

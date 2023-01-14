@@ -6,3 +6,8 @@ tile_page_dnd
 	[FILE:ljneko/aboleth.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:96:64]
+
+[TILE_PAGE:BASILISK]
+	[FILE:breadcrum/basilisk.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:64]

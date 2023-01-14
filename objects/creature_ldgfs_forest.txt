@@ -2,25 +2,35 @@ creature_dnd_forest
 
 [OBJECT:CREATURE]
 
-[CREATURE:ANKHEG]
-	[DESCRIPTION:This creature resembles an enormous many-legged insect, its long antennae twitching in response to any movement around it. Its legs end in sharp hooks adapted for burrowing and grasping its prey, and its powerful mandibles can snap a small tree in half.]
-	[NAME:ankheg:ankhegs:ankheg]
-	[CASTE_NAME:ankheg:ankhegs:ankheg]
-	[CREATURE_TILE:'A'][COLOR:8:4:0]
+[CREATURE:BASILISK]
+	[DOES_NOT_EXIST]
+	[DESCRIPTION:Said to be hatched by a cockerel from the egg of a serpent or toad, this creature's gaze is known to kill any unwary creatures unfortunate enough to cross paths with them. This creature's body is akin to a serpentlike chicken, with the head of a rooster, the body of a dragon, and two chicken legs.]
+	[NAME:basilisk:basilisks:basilisk]
+	[CREATURE_TILE:'b'][COLOR:7:0:4]
+
+	World tokens (How they are treated by the rest of the world)
+
+	[FANCIFUL]
+	[PREFSTRING: frightening gaze]
+
+	Body construction
+
+	[BODY:HUMANOID_ARMLESS_NECK:2WINGS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
+
+	Behavior tokens
 
 	[BONECARN]
-	[LARGE_ROAMING]
 	[LARGE_PREDATOR]
+	[NATURAL]
+	[DIURNAL]
 
-	[BODY:]
+	
+	Spawning tokens (spawns in forests)
 
-	[CAN_DO_INTERACTION:MATERIAL_EMISSION_WITH_HIDE_EFFECT]
-		[CDI:ADV_NAME:Hide in ground]
-		[CDI:USAGE_HINT:DEFEND]
-		[CDI:BP_REQUIRED:BY_TYPE:UPPERBODY]
-		[CDI:MATERIAL:INORGANIC:SAND_BLACK:TRAILING_ITEM_FLOW:POWDER_MISC:NONE]
-		[CDI:VERB:burrow into ground:burrows into ground:NA]
-		[CDI:TARGET:C:SELF_ONLY]
-		[CDI:TARGET:D:SELF_ONLY]
-		[CDI:WAIT_PERIOD:200]
-		[CDI:FREE_ACTION]
+	[LARGE_ROAMING]
+	[BIOME:FOREST_TEMPERATE_CONIFER]
+	[BIOME:FOREST_TEMPERATE_BROADLEAF]
+	[BIOME:FOREST_TROPICAL_CONIFER]
+	[BIOME:FOREST_TROPICAL_DRY_BROADLEAF]
+	[BIOME:FOREST_TROPICAL_MOIST_BROADLEAF]
+
